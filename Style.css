@@ -1,0 +1,253 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.Hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(../Image/DOLPHINE.jpg) ;
+    background-size:cover ;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: rgb(60, 255, 0);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    color:crimson
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:rgb(220, 20, 220);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: chartreuse;
+    transition: .4s;
+}
+.btn{
+    background-color: coral;
+    color:aqua;
+    text-decoration-line: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn:hover{
+    color: black;
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: blue;
+}
+h2{
+    color:rgb(147, 165, 42);
+    margin: 5px 0px 5px;
+    font-size: 55px;
+    font-style:italic;
+}
+h3{
+    color:blue;
+    margin: 5px 0px 5px;
+    font-size: 35px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 11px 12px 13px;
+    border: 2px solid rgb(225, 65, 145);
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: navy;
+    padding: 7px 18px;
+    border-radius: 60px;
+    background-color: rgb(255, 94, 0);
+    color: black;
+    top: 6px;
+    right: 6px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: blueviolet;
+}
+.about img{
+    height: auto;
+    width: 380px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.about-text h2{
+    color:black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:black;
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: rgb(255, 94, 0);
+    color:black;
+    text-decoration: none;
+    border: 2px salmon transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: turquoise;
+    border: 2px solid red;
+    cursor: pointer;
+}
+button:hover{
+    background-color: burlywood;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.service{
+    background:burlywood;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: brown;
+    font-size: 75px;
+    width: 1130px;
+    margin:30px auto; 
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:chocolate;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.card i{
+    font-size: 60px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: darkslategrey;    
+}
+h5{
+    color:black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color:black;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 18px;
+}
+.card .button{
+    background-color:darkblue;
+    color:black;
+    text-decoration: none;
+    border: 2px salmon transparent;
+    font-weight: bold;
+    padding: 11px 26px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color:darkcyan;
+    border: 2px solid red;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: darkcyan;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.contact-me .button-two{
+    background-color: rgb(255, 94, 0);
+    color:black;
+    text-decoration: none;
+    border: 2px salmon transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color:darkgreen;
+    border: 2px springgreen red;
+    cursor: pointer;
+}
